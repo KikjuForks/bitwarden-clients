@@ -274,6 +274,8 @@ describe("VaultPopupItemsService", () => {
         [CipherType.SecureNote]: 4,
         [CipherType.SshKey]: 5,
         [CipherType.BankAccount]: 6,
+        [CipherType.Passport]: 7,
+        [CipherType.DriversLicense]: 8,
       };
 
       // Assume all ciphers are autofill ciphers to test sorting
